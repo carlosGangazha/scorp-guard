@@ -1,7 +1,12 @@
 import './Contact.css';
+import facebook from '../assets/facebook.png';
+import twitter from '../assets/twitter.png';
+import whatsapp from '../assets/whatsapp.png';
+import signal from '../assets/signal.png';
 
 function Contact() {
   return (
+
     <div className="contact-page">
       <div className="contact-container">
 
@@ -20,8 +25,21 @@ function Contact() {
 
             <div className="info-card">
               <h3>Contact Information</h3>
-              <p>Phone: [Your Phone]</p>
-              <p>Email: [Your Email]</p>
+              <p>Email: pollenshava@gmail.com</p>
+              <div className="social-links">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                  <img src={facebook} alt="Facebook" />
+                </a>
+                <a href="https://x.com/miller_grt02" target="_blank" rel="noopener noreferrer">
+                  <img src={twitter} alt="Twitter" />
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <img src={signal} alt="Signal" />
+                </a>
+                <a href="https://wa.link/ua7cjs" target="_blank" rel="noopener noreferrer">
+                  <img src={whatsapp} alt="Whatsapp" />
+                </a>
+              </div>
             </div>
 
             <div className="info-card">
