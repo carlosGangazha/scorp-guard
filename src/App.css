@@ -1,0 +1,41 @@
+/* Base styles for all screen sizes */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive font sizing */
+html {
+  font-size: 16px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  /* Make container elements full width on mobile */
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  /* Stack elements vertically on mobile */
+  .row {
+    flex-direction: column;
+  }
+
+  /* Adjust spacing for mobile */
+  .section {
+    padding: 2rem 1rem;
+  }
+}
+
+/* Media query for very small screens */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}

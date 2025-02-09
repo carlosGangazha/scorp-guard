@@ -1,0 +1,95 @@
+.about-page {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/path/to/your/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 2rem 0;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.company-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.company-intro p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.objectives-section {
+  margin-top: 4rem;
+}
+
+.objectives-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+.objectives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.objective-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s ease;
+}
+
+.objective-item:hover {
+  transform: translateY(-5px);
+}
+
+.objective-item h3 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.objective-item p {
+  color: #f0f0f0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .objectives-section h2 {
+    font-size: 2rem;
+  }
+  
+  .company-intro p {
+    font-size: 1rem;
+  }
+  
+  .objective-item {
+    padding: 1.5rem;
+  }
+} 
