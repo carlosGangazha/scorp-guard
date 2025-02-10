@@ -44,8 +44,8 @@ function Contact() {
 
             <div className="info-card">
               <h3>Business Hours</h3>
-              <p>Monday - Friday: [Hours]</p>
-              <p>Weekend: [Hours]</p>
+              <p>Monday - Friday: 0800 - 2230 Hrs</p>
+              <p>Weekend: 0900 - 2000 Hrs</p>
             </div>
           </div>
 

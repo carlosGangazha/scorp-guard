@@ -5,37 +5,61 @@
   padding: 0;
 }
 
-/* Responsive font sizing */
 html {
   font-size: 16px;
 }
 
-/* Media query for mobile devices */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5rem;
+}
+
+.column {
+  flex: 1;
+  padding: 0 0.5rem;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 14px;
   }
 
-  /* Make container elements full width on mobile */
-  .container {
-    width: 100%;
-    padding: 0 1rem;
-  }
-
-  /* Stack elements vertically on mobile */
   .row {
     flex-direction: column;
   }
 
-  /* Adjust spacing for mobile */
   .section {
     padding: 2rem 1rem;
   }
 }
 
-/* Media query for very small screens */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   html {
     font-size: 12px;
+  }
+
+  .container {
+    padding: 0 0.5rem;
+  }
+
+  .section {
+    padding: 1rem 0.5rem;
   }
 }

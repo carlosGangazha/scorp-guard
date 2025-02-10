@@ -4,7 +4,7 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex; 
     justify-content: space-between; 
-    align-items: center; 
+    align-items: center;
   }
   
   .nav-content {
@@ -17,6 +17,8 @@ nav {
     height: 50px; 
     width: auto; 
     margin-right: 10px;
+    border: solid #007bff;
+    border-radius: 5px;
   }
   
   nav ul {
