@@ -19,8 +19,9 @@ function Contact() {
           <div className="contact-info">
             <div className="info-card">
               <h3>Our Office</h3>
-              <p>[Your Address]</p>
-              <p>[City, State, ZIP]</p>
+              <p>07 Mutasa</p>
+              <p>ZRP</p>
+              <p>Manicaland</p>
             </div>
 
             <div className="info-card">
